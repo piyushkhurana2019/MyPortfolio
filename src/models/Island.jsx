@@ -14,9 +14,16 @@ import { useFrame, useThree } from "@react-three/fiber";
 import islandScene from '../assets/3d/island.glb';
 import { a } from "@react-spring/three";
 
-const Island = (props)=> {
+const Island = ({isRotating, setIsRotating, ...props})=> {
   const islandRef = useRef();
+
+  const { gl, viewport } = useThree();       // to get access to the 3D viewport
   const { nodes, materials } = useGLTF(islandScene);
+
+  const lastX = useRef(0);     // to get the last mouse position
+  const rotationSpeed = useRef(0);
+  const dampingFactor = 0.95;
+
   return (
     // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
     <a.group ref={islandRef} {...props}>
