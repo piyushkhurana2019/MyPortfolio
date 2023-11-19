@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
 import Island from '../models/Island'
-
+import Sky from '../models/Sky'
 
 const Home = () => {
   
@@ -33,6 +33,7 @@ const Home = () => {
           {/* <pointLight/>            ek point se light nikalti h but hmne phle hi directional and ambient leli h so no need */}
           {/* <spotLight/>                 same as point light ek direction m hogi but in the shape of cone therefore req angle */}
           <hemisphereLight   skyColor="#b1e1ff"  groundColor="#000000" intensity={1} />            {/* illuminates the scene with a gradient  */}
+          <Sky />
           <Island 
             position = {islandPosition}
             scale = {islandScale}
