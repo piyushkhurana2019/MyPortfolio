@@ -8,6 +8,8 @@ import Bird from '../models/Bird'
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
+  const [currentStage, setCurrentStage] = useState(1);
+
     const adjustIslandForScreenSize = ()=>{
       let screenScale = null;
       let screenPosition = [0, -6.5, -43];
@@ -36,11 +38,9 @@ const Home = () => {
       return [screenScale, screenPosition];
     }
 
-
     const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize();
     const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
-  
   return (
     <section className="w-full h-screen relative">
 
@@ -52,13 +52,16 @@ const Home = () => {
           {/* <spotLight/>                 same as point light ek direction m hogi but in the shape of cone therefore req angle */}
           <hemisphereLight   skyColor="#b1e1ff"  groundColor="#000000" intensity={1} />            {/* illuminates the scene with a gradient  */}
           <Bird/>
-          <Sky />
+          <Sky 
+            isRotating = {isRotating}
+          />
           <Island 
             position = {islandPosition}
             scale = {islandScale}
             rotation = {islandRotation}
             isRotating ={isRotating}
             setIsRotating = {setIsRotating}
+            setCurrentStage = {setCurrentStage}
           />
           <Plane
           planePosition = {planePosition}
