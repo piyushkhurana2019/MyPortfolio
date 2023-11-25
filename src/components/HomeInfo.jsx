@@ -20,7 +20,7 @@ const renderContent = {
     ),
     2:(
         <InfoBox 
-            text ="In this huge World i am having little skills"
+            text ="Explore my journey, skills, and achievements below."
             link = '/about'
             btnText = "Let's Explore"
         />

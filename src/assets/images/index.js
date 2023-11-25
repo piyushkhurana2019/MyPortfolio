@@ -13,7 +13,6 @@ export {
     acmlogo,
     goldmanSachs,
     gsoc,
-    liveTheCode,
     covidtracker,
     frontcode,
     tourifyme,

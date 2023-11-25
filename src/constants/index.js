@@ -1,4 +1,4 @@
-import { acmlogo, goldmanSachs, gsoc, liveTheCode, covidtracker, frontcode, tourifyme, weather, hashtech,one} from "../assets/images";
+import { acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one} from "../assets/images";
 import {
     car,
     contact,
