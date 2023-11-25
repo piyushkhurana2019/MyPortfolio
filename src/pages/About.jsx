@@ -1,11 +1,14 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { Link } from "react-router-dom";
 
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
+import { useState } from "react";
 
 const About = () => {
+  const [hoveredSkill, setHoveredSkill] = useState(null);
   return (
     <section className='max-container'>
       <h1 className='head-text'>
@@ -19,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae officia quas tempora beatae veniam cupiditate ut, officiis voluptatem repudiandae sed cum eveniet dolor quo reprehenderit maiores placeat praesentium? Doloremque laudantium iure facere.
+        I am a student pursuing my Bachelor's Degree in Computer Science and Engineering from the University School of Information, Communication and Technology, GGSIPU, Delhi, INDIA
         </p>
       </div>
 
@@ -28,7 +31,7 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
+            <div className='block-container w-20 h-20' key={skill.name} onMouseEnter={ ()=> setHoveredSkill(skill.name)} onMouseLeave={()=>setHoveredSkill(null)}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
@@ -37,6 +40,11 @@ const About = () => {
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
+              {hoveredSkill === skill.name && (
+            <div className='absolute bg-blue-500 text-white p-2 rounded-md z-20 bottom-20'>
+              {skill.name}
+            </div>
+          )}
             </div>
           ))}
         </div>
@@ -46,8 +54,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience and Achievements.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+          Presenting key experiences and milestones cultivated over time, showcasing my growth and commitment in various endeavors:
           </p>
         </div>
 
@@ -96,6 +103,14 @@ const About = () => {
                     </li>
                   ))}
                 </ul>
+                <Link
+                  to={experience.link}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='font-semibold text-blue-600'
+                >
+                  Certification
+                </Link>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

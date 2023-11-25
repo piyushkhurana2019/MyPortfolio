@@ -1,8 +1,12 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { acmlogo, goldmanSachs, gsoc, liveTheCode, covidtracker, frontcode, tourifyme, weather, hashtech,one} from "../assets/images";
 import {
     car,
     contact,
     css,
+    c1,
+    cpp,
+    bootstrap,
+    threejs,
     estate,
     express,
     git,
@@ -23,20 +27,73 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+ 
+    // c,    
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: c1,
+        name: "C",
+        type: "Programming",
+    },
+    {
+        imageUrl: cpp,
+        name: "C++",
+        type: "Programming",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
         imageUrl: express,
         name: "Express",
         type: "Backend",
     },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: threejs,
+        name: "Three JS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend",
+    },
+
     {
         imageUrl: git,
         name: "Git",
@@ -47,120 +104,92 @@ export const skills = [
         name: "GitHub",
         type: "Version Control",
     },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+
+
+
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nextjs,
+    //     name: "Next.js",
+    //     type: "Frontend",
+    // },
+
+
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
+
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack Developer",
+        company_name: "Utkrisht",
+        icon: acmlogo,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "August 2023 - September 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a Tour Guide cum Booking app with MVC Architecture, featuring asynchronous code for optimal performance, impeccable error handling, robust security measures, and the capability to accommodate around 1000 users simultaneously.",
+            "Users can browse and book tours using integrated Payment Functionality, as well as manage their accounts with photo upload functionality.",
+            
         ],
+        link: 'https://drive.google.com/file/d/1O5b1QjFX1JMNlYBZ9E7zI5tHWvjGXvlL/view',
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Software Engineering Virtual Experience Program",
+        company_name: "Goldman Sachs",
+        icon: goldmanSachs,
+        iconBg: "#accbe1",
+        date: "July 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "I had the opportunity to explore the fascinating world of cybersecurity.I worked on enhancing password encryption methods to strengthen data security.",
+            // "Implementing responsive design and ensuring cross-browser compatibility.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
+        link: 'https://drive.google.com/file/d/1O5b1QjFX1JMNlYBZ9E7zI5tHWvjGXvlL/view',
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Global Rank 186",
+        company_name: "GirlScript Summer of Code",
+        icon: gsoc,
+        iconBg: "orange",
+        date: "May 2023 - August 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Global Rank 186 among 1.6k+ participants in GirlScript Summer of Code 2023",
         ],
+        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7099018438588739584/',
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "1st Position in Hackathon",
+        company_name: "Live The Code 2.0 Hackathon",
+        icon: one,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "September 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Won the Live The Code 2.0 Hackathon among 100+ teams .",
         ],
+        link: 'https://drive.google.com/file/d/1H9q1obI9RECJfqwWs6MDQRwe4sE6Vf8X/view?usp=sharing',
     },
 ];
 
@@ -173,56 +202,61 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/piyushkhurana2019',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/piyush-khurana-907b25227/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
+        iconUrl: tourifyme,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Tourify Me',
+        description: 'Developed a Tour Guide cum Booking app,where Users can browse and book tours using integrated Payment Functionality and get the precise locations of the tours via an integrated map, as well as manage their accounts with photo uploading functionality',
+        link: 'https://tourify-me.onrender.com/',
+        source: 'https://github.com/piyushkhurana2019/Natours',
     },
     {
-        iconUrl: car,
+        iconUrl: hashtech,
+        theme: 'btn-back-red',
+        name: 'Hashtech',
+        description: `Created a website for a week long Tech Event named HASHTECH, held in GGSIP University under USS ACM Student Chapter, The Club Lead added this website's link in the main USS ACM website`,
+        link: 'https://usict.acm.org/hashtech/',
+        source: 'https://github.com/piyushkhurana2019/Hashtech-2023',
+    },
+    {
+        iconUrl: weather,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Weather App',
+        description: 'Weather API based application for real-time weather information with additional functionalities.',
+        link: 'https://pk-temperatures.cyclic.app/',
+        source: 'https://github.com/piyushkhurana2019/PK-Temperatures',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: frontcode,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Front Code',
+        description: 'Front-Code is a web app featuring an IDE with syntax highlighting for HTML, CSS, and JS. It includes a Web Editor with real-time output and uses a custom useLocalStorage hook in React to store user data, maintaining it even after page refresh.',
+        link: 'https://front-code-xi.vercel.app/',
+        source: 'https://github.com/piyushkhurana2019/front-code',
     },
     {
-        iconUrl: estate,
+        iconUrl: covidtracker,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Covid Tracker App ',
+        description: 'An intuitive front-end Covid monitoring app with live news integration keeps users updated on health developments. The app features an integrated map for visualization of Covid cases, ensuring users stay informed and empowered.',
+        link: 'https://pandemic-tracker-app.vercel.app/',
+        source: 'https://github.com/piyushkhurana2019/Covid_Tracker_App',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    // {
+    //     iconUrl: summiz,
+    //     theme: 'btn-back-yellow',
+    //     name: 'AI Summarizer Application',
+    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    // }
 ];

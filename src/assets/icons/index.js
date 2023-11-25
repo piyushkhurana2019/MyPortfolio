@@ -1,4 +1,8 @@
 import css from './css.svg'
+import c1 from './c1.svg'
+import cpp from './cpp.svg'
+import bootstrap from './bootstrap.svg'
+import threejs from './threejs.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
@@ -29,6 +33,10 @@ import soundoff from './soundoff.png'
 
 export {
     css,
+    c1,
+    cpp,
+    bootstrap,
+    threejs,
     express,
     git,
     github,
