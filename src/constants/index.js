@@ -1,4 +1,4 @@
-import { acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one} from "../assets/images";
+import { ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one} from "../assets/images";
 import {
     car,
     contact,
@@ -143,6 +143,19 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        title: "Software Development Engineer (SDE) Intern",
+        company_name: "ZeroBug (Gurugram, Haryana)",
+        icon: ZeroBugIcon,
+        iconBg: "#FFC0CB",
+        date: "Novemver 2023 - Present",
+        points: [
+            "Contributed to successful project deliveries, demonstrating a commitment to quality and deadlines.",
+            "Developed tailored ERP software systems for client companies, enhancing operational efficiency.",
+            "Collaborated effectively in cross-functional teams, resolving technical challenges to ensure project success.",
+        ],
+        link: 'https://www.linkedin.com/posts/piyush-khurana-907b25227_newbeginnings-softwareengineer-newinternship-activity-7138108518473109504-T2Bm?utm_source=share&utm_medium=member_desktop',
+    },
     {
         title: "Full Stack Developer",
         company_name: "Utkrisht",
