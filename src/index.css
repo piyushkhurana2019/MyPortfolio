@@ -181,3 +181,28 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+.tooltip-text {
+  display: none; /* Hide the text by default */
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  top: -30px; /* Adjust as needed to position the tooltip */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+
+  /* margin-top: 10px; */
+}
+
+.downloader:hover .tooltip-text {
+  display: inline; /* Show the text on button hover */
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Styles for the clicked state */
+.downloader.clicked .tooltip-text {
+  font-size: 10px; /* Adjust the font size as needed */
+}
