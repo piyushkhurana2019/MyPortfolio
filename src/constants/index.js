@@ -28,11 +28,16 @@ import {
     tailwindcss,
     threads,
     typescript,
- 
+    python,
     // c,    
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Programming",
+    },
     {
         imageUrl: c1,
         name: "C",
@@ -157,15 +162,13 @@ export const experiences = [
         link: 'https://www.linkedin.com/posts/piyush-khurana-907b25227_newbeginnings-softwareengineer-newinternship-activity-7138108518473109504-T2Bm?utm_source=share&utm_medium=member_desktop',
     },
     {
-        title: "Full Stack Developer",
+        title: "Machine Learning Intern",
         company_name: "Utkrisht",
         icon: acmlogo,
         iconBg: "#accbe1",
         date: "August 2023 - September 2023",
         points: [
-            "Developed a Tour Guide cum Booking app with MVC Architecture, featuring asynchronous code for optimal performance, impeccable error handling, robust security measures, and the capability to accommodate around 1000 users simultaneously.",
-            "Users can browse and book tours using integrated Payment Functionality, as well as manage their accounts with photo upload functionality.",
-            
+            "Developed a Twitter sentiment analyzer using machine learning pipelines for efficient model building and deployment. Employed natural language processing (NLP) techniques for text preprocessing and feature engineering.",
         ],
         link: 'https://drive.google.com/file/d/1O5b1QjFX1JMNlYBZ9E7zI5tHWvjGXvlL/view',
     },
