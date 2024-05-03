@@ -9,6 +9,8 @@ import tourifyme from './Tourifyme.png'
 import weather from './logo.png'
 import hashtech from './hashtech.png'
 import one from './1.jpeg'
+import movie_recommender_logo from './movie_recomender_logo.jpeg'
+
 export {
     ZeroBugIcon,
     logo,
@@ -20,5 +22,6 @@ export {
     tourifyme,
     weather,
     hashtech,
-    one
+    one,
+    movie_recommender_logo
 }

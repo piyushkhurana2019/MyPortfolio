@@ -1,4 +1,4 @@
-import { ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one} from "../assets/images";
+import { ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one, movie_recommender_logo} from "../assets/images";
 import {
     car,
     contact,
@@ -29,6 +29,7 @@ import {
     threads,
     typescript,
     python,
+    
     // c,    
 } from "../assets/icons";
 
@@ -228,6 +229,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: movie_recommender_logo,
+        theme: 'btn-back-red',
+        name: 'Movie Recommender System',
+        description: 'Engineered a movie recommender system with machine learning, distilling a dataset of 5000 movies into essential tags. Transforming them into vectors, and leveraging cosine distance for accurate similarity calculations. Implemented with sklearn, the system provides personalized movie suggestions, optimizing user experience.',
+        link: 'https://tourify-me.onrenderr.com/',
+        source: 'https://github.com/piyushkhurana2019/Movie_Recommeder_System',
+    },
     {
         iconUrl: tourifyme,
         theme: 'btn-back-green',
