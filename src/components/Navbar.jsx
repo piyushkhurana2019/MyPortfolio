@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleDownload = () => {
         // Add the logic to trigger the download here
         // For example, you can use window.open or create a download link
-        const resumeUrl = 'https://drive.google.com/file/d/1VyIq8gmM__-s1eF7ie5IqSgl7LCWRBF4/view?usp=sharing';
+        const resumeUrl = 'https://drive.google.com/file/d/1UEHsQp8iuN9f2v0eRs7pz81iAmYZDoWt/view?usp=sharing';
 
         // Open the resume URL in a new window to trigger the download
         window.open(resumeUrl, '_blank');

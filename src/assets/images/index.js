@@ -1,6 +1,7 @@
 import logo from './logo.svg'
 import ZeroBugIcon from './ZeroBugIcon.jpeg'
 import acmlogo from './acm-logo.png'
+import cnlogo from './cn-logo.jpeg'
 import goldmanSachs from './goldmanSachs-logo.png'
 import gsoc from './gsoc-logo.png'
 import covidtracker from './covidtracker-logo.jpeg'
@@ -15,6 +16,7 @@ export {
     ZeroBugIcon,
     logo,
     acmlogo,
+    cnlogo,
     goldmanSachs,
     gsoc,
     covidtracker,

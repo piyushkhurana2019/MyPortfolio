@@ -1,4 +1,4 @@
-import { ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one, movie_recommender_logo} from "../assets/images";
+import { ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one, movie_recommender_logo, cnlogo} from "../assets/images";
 import {
     car,
     contact,
@@ -150,6 +150,17 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Teaching Assistant",
+        company_name: "Coding Ninja",
+        icon: cnlogo,
+        iconBg: "#accbe1",
+        date: "May 2024 - Present",
+        points: [
+            "Mentored over 200 students in mastering Data Structures and Algorithms (DSA) and C++ concepts through one-on-one guidance, coding labs, and troubleshooting.",
+        ],
+        
+    },
+    {
         title: "Software Development Engineer (SDE) Intern",
         company_name: "ZeroBug (Gurugram, Haryana)",
         icon: ZeroBugIcon,
@@ -163,29 +174,17 @@ export const experiences = [
         link: 'https://www.linkedin.com/posts/piyush-khurana-907b25227_newbeginnings-softwareengineer-newinternship-activity-7138108518473109504-T2Bm?utm_source=share&utm_medium=member_desktop',
     },
     {
-        title: "Machine Learning Intern",
+        title: "Full Stack Developer Intern",
         company_name: "Utkrisht",
         icon: acmlogo,
         iconBg: "#accbe1",
         date: "August 2023 - September 2023",
         points: [
-            "Developed a Twitter sentiment analyzer using machine learning pipelines for efficient model building and deployment. Employed natural language processing (NLP) techniques for text preprocessing and feature engineering.",
+            "Developed a Robust Property Management Application using the MERN Stack, Implemented Google OAuth for secure and seamless user authentication. Incorporated advanced filtering options and cutting-edge MongoDB query techniques for efficient and accurate searches. Utilized Redux for state management, ensuring efficient data handling and application performance.",
         ],
         link: 'https://drive.google.com/file/d/1O5b1QjFX1JMNlYBZ9E7zI5tHWvjGXvlL/view',
     },
-    {
-        title: "Software Engineering Virtual Experience Program",
-        company_name: "Goldman Sachs",
-        icon: goldmanSachs,
-        iconBg: "#accbe1",
-        date: "July 2023",
-        points: [
-            "I had the opportunity to explore the fascinating world of cybersecurity.I worked on enhancing password encryption methods to strengthen data security.",
-            // "Implementing responsive design and ensuring cross-browser compatibility.",
-            // "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-        link: 'https://drive.google.com/file/d/1O5b1QjFX1JMNlYBZ9E7zI5tHWvjGXvlL/view',
-    },
+
     {
         title: "Global Rank 186",
         company_name: "GirlScript Summer of Code",
