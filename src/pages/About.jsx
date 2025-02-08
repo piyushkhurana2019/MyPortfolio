@@ -103,14 +103,16 @@ const About = () => {
                     </li>
                   ))}
                 </ul>
-                <Link
-                  to={experience.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
-                >
-                  Certification
-                </Link>
+                {experience.link && (
+                  <Link
+                    to={experience.link}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='font-semibold text-blue-600'
+                  >
+                    Certification
+                  </Link>
+                )}
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

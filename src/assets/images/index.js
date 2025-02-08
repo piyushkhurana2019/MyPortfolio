@@ -11,6 +11,9 @@ import weather from './logo.png'
 import hashtech from './hashtech.png'
 import one from './1.jpeg'
 import movie_recommender_logo from './movie_recomender_logo.jpeg'
+import byndlogo from './byndlogo.png'
+import reglogo from './reglogo.svg'
+import sorting_visualizer from './sortingVisualizer.png'
 
 export {
     ZeroBugIcon,
@@ -25,5 +28,8 @@ export {
     weather,
     hashtech,
     one,
-    movie_recommender_logo
+    movie_recommender_logo,
+    byndlogo,
+    reglogo,
+    sorting_visualizer
 }

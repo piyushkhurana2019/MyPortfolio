@@ -31,6 +31,8 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './python.svg'
+import mysql from './mysql.png'
+import docker from './docker.png'
 
 export {
     css,
@@ -65,5 +67,7 @@ export {
     contact,
     soundon,
     soundoff,
-    python
+    python,
+    mysql,
+    docker
 }
