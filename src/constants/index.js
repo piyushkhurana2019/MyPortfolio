@@ -1,4 +1,4 @@
-import { sorting_visualizer, byndlogo, reglogo, ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one, movie_recommender_logo, cnlogo} from "../assets/images";
+import { citationEngine,sorting_visualizer, byndlogo, reglogo, ZeroBugIcon, acmlogo, goldmanSachs, gsoc, covidtracker, frontcode, tourifyme, weather, hashtech,one, movie_recommender_logo, cnlogo} from "../assets/images";
 import {
     car,
     contact,
@@ -266,6 +266,17 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: citationEngine,
+        theme: 'btn-back-blue',
+        name: 'Citation Engine',
+        description: `AI is powerful — but it often hallucinates facts that don’t exist.
+So what if every AI-generated statement could link you directly to the exact line on the original webpage that supports it?
+
+That’s exactly what I built.`,
+        link: 'https://www.youtube.com/watch?v=Sh1t-VLBpU8',
+        source: 'https://github.com/piyushkhurana2019/citation-engine',
+    },
     {
         iconUrl: sorting_visualizer,
         theme: 'btn-back-black',

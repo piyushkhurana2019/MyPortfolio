@@ -14,7 +14,7 @@ import movie_recommender_logo from './movie_recomender_logo.jpeg'
 import byndlogo from './byndlogo.png'
 import reglogo from './reglogo.svg'
 import sorting_visualizer from './sortingVisualizer.png'
-
+import citationEngine from './citationEngine.png'
 export {
     ZeroBugIcon,
     logo,
@@ -31,5 +31,6 @@ export {
     movie_recommender_logo,
     byndlogo,
     reglogo,
-    sorting_visualizer
+    sorting_visualizer,
+    citationEngine
 }
